@@ -9,7 +9,6 @@ async function fetchWithRetry(id, index) {
 		})
 		retries++
 	}
-	console.log(res.status)
 	return res
 }
 
